@@ -1,0 +1,43 @@
+:root {
+    --bg: rgb(6, 24, 1);
+    --dBg: rgb(61, 55, 35);
+    --lBg: rgb(245, 242, 232);
+    --orange: orange;
+    --dBrown: rgb(204, 64, 64);
+    --Grey: rgb(226, 152, 152);
+    --aqua: rgb(193, 236, 236);
+}
+
+body, html {
+    /* height: 100%; */
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    background-color: var(--bg);
+    color: var(--dBrown);
+}
+
+.mainContainer {
+    width: 90%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    margin: 0px !important;
+    padding-top: 40px;
+}
+
+.pageContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.pageHeader {
+    font-weight: 700;
+    color: var(--orange);
+}
+
+.flex {
+    display: flex;
+}

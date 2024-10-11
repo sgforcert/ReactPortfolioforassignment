@@ -1,0 +1,21 @@
+h3 {
+    font-weight: 600;
+}
+
+#resumeImg{
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+#resumeLink {
+    padding: 20px;
+    color: var(--aqua);
+}
+
+#mySkills {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}

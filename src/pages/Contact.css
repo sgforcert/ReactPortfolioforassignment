@@ -1,0 +1,34 @@
+h3 {
+    padding: 10px;
+}
+
+spin {
+    font-style: italic;
+}
+
+.errCustom {
+    display: inline;
+    font-size: 20px;
+    background-color: var(--orange);
+    color: var(--lBg);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#formContainer {
+    margin-bottom: 40px;
+}
+
+#tipContainer {
+    padding-top: 80px;
+}
+
+#tip {
+    align-self:flex-start;
+    padding-top: 0;
+    text-align: left;
+}
+
+#note {
+    padding-top: 50px;
+}

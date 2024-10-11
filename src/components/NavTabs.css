@@ -1,0 +1,28 @@
+.tabs {
+    align-items: end;
+    font-size: 30px;
+    border: var(--bg) !important;
+}
+
+.nav-link {
+    border: var(--bg) !important;
+    color:  var(--aqua) !important;
+}
+
+.nav-link.active {
+    background-color: var(--bg) !important;
+    color:  var(--orange) !important;
+    border: var(--bg) !important;
+}
+
+#title {
+    font-weight: 600;
+}
+
+#navTabsContainer {
+    padding: 20px;
+    padding-bottom: 0;
+    background-color: var(--dBg);
+    display: flex;
+    justify-content:space-between
+}

@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+}
+
+.customRow {
+    padding-bottom: 30px;
+}
+
+.projectImg {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.projectLink {
+    color: var(--aqua);
+    padding: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.web {
+    font-style: normal;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; /* To prevent the text from taking up the entire width */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(173, 168, 168, 0.8); /* Semi-transparent background */
+    color: var(--dBrown);
+    font-size: 30px;
+    display: flex; /* align text to center */
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* hide text by default */
+    transition: opacity 0.3s; /* smooth transition */
+    border-radius: 10px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1; /* show text on hover */
+}

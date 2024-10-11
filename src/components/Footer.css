@@ -1,0 +1,26 @@
+#footerDiv {
+    font-size: 20px;
+    padding: 30px;
+    background-color: var(--dBg);
+}
+
+#footerContactMe {
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    font-size: 30px;
+}
+
+#myData {
+    text-align: left;
+}
+
+#icons {
+    display: flex;
+    justify-content: right;
+}
+
+#LinkedIn, #GitHub {
+    padding: 10px;
+    color: var(--aqua);
+}
